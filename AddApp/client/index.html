@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DailyTask</title>
+    <link rel="icon" href="cal.jpg">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+        <div class="navbar"><h1>DailyTask</h1></div>
+        <div class="parent">
+            <div class="details">
+                <h2>Task 1</h2>
+                <h3>Bathing</h3>
+                <h3>1 Hour</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur illum explicabo quidem porro ea esse voluptate laborum vero hic. Nesciunt.</p>
+                <button onclick="completed(event)">completed</button>
+            </div>
+        </div>
+    
+        <div>
+            <button class="add">+</button>
+        </div>
+    </div>
+    
+    <div class="overlay"></div>
+    <div id="popup">
+        <form>
+            <h2>Task-<input type="number"  id="inputnum" placeholder="Enter Task Number"></h2>
+            <h3><input type="text"   id="inputtask" placeholder="Enter Task"></h3>
+            <h3><input type="number" id="inputtime" placeholder="Enter Time in hours"></h3>
+            <p><textarea  type="textarea"  id="inputnotes" placeholder="Enter Notes"></textarea></p>
+        </form>
+        <button class="Add">Add</button>
+        <button class="Cancel">Cancel</button>
+    </div>
+   
+    <script src="main.js"></script>
+</body>
+</html>

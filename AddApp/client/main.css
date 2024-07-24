@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.kaushan-script-regular 
+{
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.top{
+    background-color:powderblue;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   left: 0%;
+   top: 0%;
+   opacity: 0.8;
+   display: block;
+   z-index: 1;
+}
+.navbar{
+    background-color: darkred;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    border-style:dotted;
+    border-color: crimson;
+}
+
+.details{
+    background-color: lightgreen;
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    margin: 30px;
+    border-style:solid;
+    border-color:gold;
+    display:inline-block;
+    text-align:justify;
+    vertical-align: top; 
+    overflow: hidden;
+}
+
+.details h2{
+
+    color: black;
+    padding:0px;
+}
+.details h3{
+    color:darkolivegreen;
+    padding: 10px;
+}
+.details p{
+    color: green;
+    padding: 10px;
+}
+.details button{
+    background-color: green;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.add{
+    background-color: red;
+    border-radius:100%;
+    padding: 10px;
+    font-size:x-large;
+    color: wheat;
+    border: none;
+    position: fixed;
+    left: 95%;
+    top: 90%;
+    
+}
+
+.overlay{
+   background-color:  black;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   left: 0%;
+   top: 0%;
+   opacity: 0.8;
+   display: none;
+   z-index: 2;
+}
+
+#popup{
+    background-color: aquamarine;
+    color: black;
+    width: fit-content;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:darkcyan;
+    z-index: 3;
+    display: none;
+    border: none;
+}
+#popup input:focus{
+    outline: navajowhite;
+}
+#inputnum{
+   margin-top: 10px;
+   background: transparent;
+   border-radius: 5px;
+}
+#inputtask{
+    margin-left: 55px;
+    margin-top: 10px;
+    background: transparent;
+    border-radius: 5px;
+}
+#inputtime{
+    margin-left: 55px;
+    margin-top: 10px;
+    background: transparent;
+    border-radius: 5px;
+}
+#inputnotes{
+    margin-left: 55px;
+    margin-top: 10px;
+    background: transparent;
+    border-radius: 5px;
+
+}
+.Add{
+    margin-left: 60px;
+    margin-top: 10px;
+    background-color: blue;
+    color: aliceblue;
+}
+.Cancel{
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: blue;
+    color: aliceblue;
+}
